@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+<link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1">
+<title>Title Of Page</title>
+ <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" type="text/css" href="normalize.css">
+<link rel="stylesheet" type="text/css" href="skeleton.css">
+<link rel="stylesheet" type="text/css" href="foundation.css">
+<link rel="stylesheet" type="text/css" href="Stylesheet.css">
+
+<link rel="stylesheet" type="text/css" href="jquery.fullPage.css">
+<script type="text/javascript" src="jquery-1.11.3.js"></script>
+<script type="text/javascript" src="jquery.fullPage.js"></script>
+
+<script>
+$(document).ready(function() {
+    $('#fullpage').fullpage({
+        //Navigation
+        menu: '#menu',
+        lockAnchors: false,
+        anchors:['firstPage', 'secondPage'],
+        navigation: true,
+        navigationPosition: 'right',
+        navigationTooltips: ['firstSlide', 'secondSlide'],
+        showActiveTooltip: false,
+        slidesNavigation: true,
+        slidesNavPosition: 'bottom',
+
+        //Scrolling
+        css3: true,
+        scrollingSpeed: 700,
+        autoScrolling: false,
+        fitToSection: true,
+        fitToSectionDelay: 1000,
+        scrollBar: false,
+        easing: 'easeInOutCubic',
+        easingcss3: 'ease',
+        loopBottom: false,
+        loopTop: false,
+        loopHorizontal: true,
+        continuousVertical: false,
+        normalScrollElements: '#element1, .element2',
+        scrollOverflow: false,
+        touchSensitivity: 15,
+        normalScrollElementTouchThreshold: 5,
+
+        //Accessibility
+        keyboardScrolling: true,
+        animateAnchor: true,
+        recordHistory: true,
+
+        //Design
+        controlArrows: true,
+        verticalCentered: true,
+        resize : false,
+        sectionsColor : ['#08BDD8', '#A8CC68', '#ff4c42', '#414852', '#D3D3D3'],
+        paddingTop: '3em',
+        paddingBottom: '10px',
+        fixedElements: '#header, .footer',
+        responsiveWidth: 0,
+        responsiveHeight: 0,
+
+        //Custom selectors
+        sectionSelector: '.section',
+        slideSelector: '.slide',
+
+        //events
+        onLeave: function(index, nextIndex, direction){},
+        afterLoad: function(anchorLink, index){},
+        afterRender: function(){},
+        afterResize: function(){},
+        afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
+        onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
+    });
+});
+</script>
+
+
+</head>
+<!-- <header>
+<img src='images/bluebubble.png' id='headerbubble'>
+</header> -->
+
+<body>
+  <div id="fullpage">
+
+      <div class="section">
+        <div class="container">
+        <div class="row">
+          <div class="five columns" id="oneleft">
+            <img src="images/mainmockup.png" id="mainscreen">
+          </div>
+          <div class="seven columns" id="oneright">
+            <img src="images/mainlogo.png" id="allogo">
+          </div>
+        </div>
+      </div>
+  </div>
+
+      <div class="section" id='sectwo'>
+        <div class="container">
+        <div class="row">
+          <div class="six columns" id="twoleft">
+            <div>video here</div>
+          </div>
+          <div class="six columns" id="tworight">
+            <h5>Abair Leat is the world's first minority language app to be created.</h5>
+            <p>Tired of autocorrect changing “craic” to “crack”? “Scoil” to “spoil”? Abair Leat can help with that! Abair Leat’s predictive texting function checks your words against open-source Irish dictionaries, to ensure that you’re getting the most enjoyment out of your Irish-language messaging experience, with minimal frustration.</p>
+            <button id="learnmorebutton">CLICK HERE TO LEARN MORE</button>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="section" id='sectwo'>
+        <div class="container">
+        <div class="row">
+          <div class="six columns" id="twoleft">
+            <h1>PREDICTIVE TEXT</h1>
+            <h5>Abair Leat’s unique predictive texting function makes using Irish easier than ever before.</h5>
+            <p>Tired of autocorrect changing “craic” to “crack”? “Scoil” to “spoil”? Abair Leat can help with that! Abair Leat’s predictive texting function checks your words against open-source Irish dictionaries, to ensure that you’re getting the most enjoyment out of your Irish-language messaging experience, with minimal frustration.</p>
+          </div>
+          <div class="six columns" id="tworight">
+            <img src="images/predictivetext.png" id="predictive">
+          </div>
+        </div>
+        </div>
+      </div>
+
+    <div class="section">
+    <div class="container">
+    <div class="row">
+      <div class="six columns" id="twoleftright">
+        <h1>ACHIEVEMENTS</h1>
+        <h5>Earn achievements and unlock rewards as you use Abair Leat! Score!</h5>
+        <p>Get rewarded for using Abair Leat and improving your Irish skills. Earn trophies, unlock new emoji libraries, and show off those rewards to your friends on Abair Leat and other social media platforms.</p>
+      </div>
+      <div class="six columns" id="tworight">
+        <img src="images/predictivetext.png" id="predictive">
+      </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="section">
+    <div class="container">
+    <div class="row">
+      <div class="six columns" id="tworight">
+        <img src="images/predictivetext.png" id="predictive">
+          </div>
+      <div class="six columns" id="twoleftright">
+        <h1>MESSAGING</h1>
+        <h5>Everything you’ve come to expect from a messaging app, plus more.</h5>
+        <p>Share photos and videos, express yourself with a library of custom emojis, and start group messages. How you use Abair Leat is up to you! Share photos and videos, express yourself with a library of custom emojis, and start group messages. How you use Abair Leat is up to you!</p>
+      </div>
+        </div>
+      </div>
+    </div>
+
+
+
+      <div class="section" id='learnmoresec'>
+        <h2 id="learnmoresectitle">LEARN MORE</h2>
+        <div class="slide" data-anchor="slide1">
+        <div class="container">
+        <div class="row">
+          <div class="six columns" id="threeleft">
+            <h3>WHAT IS ABAIR LEAT?</h3>
+            <h5>Abair Leat’s unique predictive texting function makes using Irish easier than ever before.</h5>
+            <p>Tired of autocorrect changing “craic” to “crack”? “Scoil” to “spoil”? Abair Leat can help with that! Abair Leat’s predictive texting function checks your words against open-source Irish dictionaries, to ensure that you’re getting the most enjoyment out of your Irish-language messaging experience, with minimal frustration.</p>
+          </div>
+          <div class="six columns" id="threeright">
+            <img src="images/predictivetext.png" id="predictive">
+          </div>
+        </div>
+        </div>
+        </div>
+        <div class="slide" data-anchor="slide2">
+        <div class="container">
+        <div class="row">
+        <div class="six columns" id="twoleftright">
+        <h3>IS IT FOR IRISH ONLY?</h3>
+        <h5>Everything you’ve come to expect from a messaging app, plus more.</h5>
+        <p>Share photos and videos, express yourself with a library of custom emojis, and start group messages. How you use Abair Leat is up to you! Share photos and videos, express yourself with a library of custom emojis, and start group messages. How you use Abair Leat is up to you!</p>
+        </div>
+        <div class="six columns" id="tworight">
+        <img src="images/predictivetext.png" id="predictive">
+          </div>
+        </div>
+        </div>
+        </div>
+        <div class="slide" data-anchor="slide3">
+          <div class="container">
+          <div class="row">
+          <div class="six columns" id="twoleftright">
+          <h3>HOW WAS IT CREATED?</h3>
+          <h5>Earn achievements and unlock rewards as you use Abair Leat! Score!</h5>
+          <p>Get rewarded for using Abair Leat and improving your Irish skills. Earn trophies, unlock new emoji libraries, and show off those rewards to your friends on Abair Leat and other social media platforms.</p>
+          </div>
+          <div class="six columns" id="tworight">
+          <img src="images/predictivetext.png" id="predictive">
+          </div>
+          </div>
+          </div>
+        </div>
+        <div class="slide" data-anchor="slide4">
+          <div class="container">
+          <div class="row">
+          <div class="medium-12 large-6 columns" id="twoleftright">
+          <h3>WANT TO GET INVOLVED?</h3>
+          <h5>Earn achievements and unlock rewards as you use Abair Leat! Score!</h5>
+          <p>Get rewarded for using Abair Leat and improving your Irish skills. Earn trophies, unlock new emoji libraries, and show off those rewards to your friends on Abair Leat and other social media platforms.</p>
+          </div>
+          <div class="medium-12 large-6 columns" id="tworight">
+          <img src="images/predictivetext.png" id="predictive">
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="section" id='getabairleatsec'>
+        <h1>GET ABAIR LEAT</h1>
+
+      </div>
+  </div>
+
+
+</body>
+</html>
