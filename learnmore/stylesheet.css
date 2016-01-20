@@ -1,0 +1,93 @@
+/*CSS Stylesheet*/
+
+/** {border: 1px solid black;}*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+img {
+    max-width: 100%;
+}
+.section {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: pink;
+}
+
+#secone {
+  background-color: #08BDD8;
+}
+#sectwo {
+  background-color: #ff4c42;
+}
+#secthree {
+  padding-top: 100px;
+  background-color: #182E4A;
+}
+#michael {
+  border: 2px solid white;
+  border-radius: 10%;
+}
+
+#michaelcaption {
+  text-align: center;
+}
+#learnmorebutton {
+  font-size: 12pt;
+  background-color: white;
+  color: navy;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.container {
+  margin-top: 0px;
+  text-align: center;
+  color: white;
+}
+#mainscreen {
+  max-height: 95vh;
+}
+#oneleft {
+  margin-top: 0px;
+}
+#oneright {
+  margin-left: 0px;
+  margin-top: 100px;
+}
+#allogo {
+  margin-top: 15%;
+}
+h1 {
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  font-size: 42pt;
+}
+h3 {
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  font-size: 32pt;
+}
+h5 {
+  font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-style: italic;
+    font-size: 20pt;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+      text-align: left;
+      font-size: 12pt;
+}
+#getabairleatsec h1 {
+  text-align: center;
+  color: white;
+}
+
+#learnmoresec h2 {
+  text-align: center;
+  color: white;
+  margin-bottom: 0px;
+
+}

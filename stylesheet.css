@@ -7,23 +7,96 @@ body {
 }
 img {
     max-width: 100%;
+    max-height: 80vh;
 }
-/*header {
-  background: white;
-  position: absolute;
-  z-index: 1000000;
+header {
+  background-color: white;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  z-index: 1;
+}
+nav {
+  float: right;
+  padding-right: 100px;
+}
+nav ul {
+  color: #08BDD8;
+
+}
+nav ul li {
+  display: inline-block;
+  text-decoration: none;
+  padding-top: 15px;
+  padding-bottom: 0px;
+  font-size: 18px;
+  margin: 0px;
+  color: #08BDD8;
+}
+a {
+  text-decoration: none;
 }
 #headerbubble {
-height: 100px;
-
-}*/
+  max-height: 60px;
+  padding-left: 100px;
+}
+.section {
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: pink;
+}
+#secone {
+  padding-top: 40px;
+  background-color: #08BDD8;
+}
+#sectwo {
+  padding-top: 100px;
+  background-color: #ffffff;
+}
+#secthree {
+  padding-top: 80px;
+  background-color: #182E4A;
+}
+#secfour {
+  padding-top: 100px;
+  background-color: #ff4c42;
+}
+#sectwo div h1{
+  color: grey;
+}
+#sectwo div h5{
+  color: grey;
+}
+#sectwo p{
+  color: grey;
+}
+#secfive {
+  padding-top: 100px;
+  background-color: #01a6be;
+}
+#secsix {
+  text-align: center;
+  padding-top: 100px;
+  background-color: #5E6A7A;
+}
+.secsixtext {
+  text-align: center;
+}
+#comingsoon {
+  max-width: 50%;
+}
 
 #learnmorebutton {
   font-size: 12pt;
-  background-color: white;
-  color: navy;
+  background-color: #08BDD8;
+  color: white;
   padding-right: 10px;
   padding-left: 10px;
+}
+iframe {
+  margin-top: 50px;
+  border: 2px solid white;
 }
 /*#sectwo {
 margin-top: 0px;
@@ -80,3 +153,30 @@ p {
   margin-bottom: 0px;
 
 }
+
+@media all and (min-width: 680px) {
+    #mobileNav {
+        display: none;
+    }
+}
+@media all and (max-width: 680px) {
+    #navigation {
+        display: none;
+    }
+    #headerbubble {
+      display: none;
+    }
+    #mobileNav li {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid white;
+        padding-left: 0px;
+    }
+    #menu {
+        display: none;
+    }
+    .btn {
+        cursor: pointer;
+        padding: 15px;
+        display: block;
+    }
