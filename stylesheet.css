@@ -10,7 +10,8 @@ img {
     max-height: 80vh;
 }
 header {
-  background-color: white;
+  background: white;
+  opacity: 0.95;
   position: fixed;
   height: 60px;
   width: 100%;
@@ -140,7 +141,7 @@ h5 {
 p {
     font-family: 'Roboto', sans-serif;
       text-align: left;
-      font-size: 12pt;
+      font-size: 13pt;
 }
 #getabairleatsec h1 {
   text-align: center;
@@ -153,30 +154,3 @@ p {
   margin-bottom: 0px;
 
 }
-
-@media all and (min-width: 680px) {
-    #mobileNav {
-        display: none;
-    }
-}
-@media all and (max-width: 680px) {
-    #navigation {
-        display: none;
-    }
-    #headerbubble {
-      display: none;
-    }
-    #mobileNav li {
-        width: 100%;
-        text-align: center;
-        border-bottom: 1px solid white;
-        padding-left: 0px;
-    }
-    #menu {
-        display: none;
-    }
-    .btn {
-        cursor: pointer;
-        padding: 15px;
-        display: block;
-    }

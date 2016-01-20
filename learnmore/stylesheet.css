@@ -19,19 +19,29 @@ img {
   background-color: #08BDD8;
 }
 #sectwo {
-  background-color: #ff4c42;
+  background-color: #ffffff;
+}
+.sectwotext {
+  color: grey;
 }
 #secthree {
   padding-top: 100px;
   background-color: #182E4A;
 }
 #michael {
-  border: 2px solid white;
-  border-radius: 10%;
+  border: 7px solid white;
+  border-radius: 50% 50% 0% 50%;
+  box-shadow: 0 0 1em black;
 }
 
 #michaelcaption {
-  text-align: center;
+  text-align: right;
+  font-size: 13pt;
+}
+#michaeltitle {
+  text-align: right;
+  padding-right: 0px;
+  margin-right: 0px;
 }
 #learnmorebutton {
   font-size: 12pt;
