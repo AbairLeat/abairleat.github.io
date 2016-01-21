@@ -84,6 +84,9 @@ a {
   padding-right: 0px;
   margin-right: 0px;
 }
+.secfourtext {
+  line-height: 22pt;
+}
 #learnmorebutton {
   font-size: 12pt;
   background-color: white;
@@ -127,12 +130,13 @@ h5 {
   font-family: 'Roboto', sans-serif;
     text-align: left;
     font-style: italic;
-    font-size: 20pt;
+    font-size: 22pt;
+    line-height: 0pt;
 }
 p {
     font-family: 'Roboto', sans-serif;
       text-align: left;
-      font-size: 13pt;
+      font-size: 13.5pt;
 }
 #getabairleatsec h1 {
   text-align: center;
@@ -160,6 +164,9 @@ p {
 @media screen and (max-width: 550px) {
   nav {
     padding-right: 10px;
+  }
+  h5 {
+    line-height: 22pt;
   }
 }
 @media screen and (max-width: 450px) {

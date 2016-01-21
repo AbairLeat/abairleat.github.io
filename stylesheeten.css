@@ -85,7 +85,7 @@ a {
   color: grey;
 }
 #secfive {
-  padding-top: 50px;
+  padding-top: 100px;
   background-color: #01a6be;
 }
 #fiveright {
@@ -141,13 +141,10 @@ padding-top: 0px;
 #allogo {
   margin-top: 15%;
 }
-#otherthings {
-  margin-top: 40px;
-}
 h1 {
   font-family: 'Roboto', sans-serif;
   text-align: left;
-  font-size: 38pt;
+  font-size: 42pt;
 }
 h3 {
   font-family: 'Roboto', sans-serif;
@@ -158,12 +155,12 @@ h5 {
   font-family: 'Roboto', sans-serif;
     text-align: left;
     font-style: italic;
-    font-size: 17pt;
+    font-size: 20pt;
 }
 p {
     font-family: 'Roboto', sans-serif;
       text-align: left;
-      font-size: 12pt;
+      font-size: 13pt;
 }
 #getabairleatsec h1 {
   text-align: center;
