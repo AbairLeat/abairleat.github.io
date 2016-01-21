@@ -35,6 +35,7 @@ nav ul li {
   color: #08BDD8;
 }
 a {
+  color: #08BDD8;
   text-decoration: none;
 }
 #headerbubble {
@@ -76,6 +77,9 @@ a {
   padding-top: 100px;
   background-color: #01a6be;
 }
+#fiveright {
+  padding-left: 30px;
+}
 #secsix {
   text-align: center;
   padding-top: 100px;
@@ -94,6 +98,7 @@ a {
   color: white;
   padding-right: 10px;
   padding-left: 10px;
+  margin-bottom: 20px;
 }
 iframe {
   margin-top: 50px;
@@ -111,6 +116,9 @@ padding-top: 0px;
 }
 #mainscreen {
   max-height: 95vh;
+}
+#predicitve {
+  margin-bottom: 20px;
 }
 #oneleft {
   margin-top: 0px;
@@ -153,4 +161,33 @@ p {
   color: white;
   margin-bottom: 0px;
 
+}
+#icon {
+  padding-top: 40px;
+}
+@media screen and (max-width: 590px) {
+  #mobilelogo {
+    display: none;
+  }
+}
+@media screen and (max-width: 650px) {
+  iframe {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 450px) {
+  nav {
+    padding-right: 50px;
+  }
+  nav ul li {
+    font-size: 12pt;
+  }
+  header {
+    height: 45px;
+  }
+}
+@media screen and (max-width: 1020px) {
+  #allogo {
+    margin-top: -100px;
+  }
 }
