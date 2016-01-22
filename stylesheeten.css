@@ -192,6 +192,9 @@ p {
   iframe {
     width: 300px;
   }
+  #predicitve {
+    padding-bottom: 20px;
+  }
 }
 @media screen and (max-width: 450px) {
   nav {
@@ -202,6 +205,14 @@ p {
   }
   header {
     height: 55px;
+  }
+  h1 {
+    font-size: 38pt;
+  }
+}
+@media screen and (min-width: 1020px) {
+  .section {
+    max-height: 700px;
   }
 }
 @media screen and (max-width: 1020px) {
