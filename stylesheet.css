@@ -191,7 +191,7 @@ p {
 }
 @media screen and (max-width: 450px) {
   nav {
-    padding-right: 50px;
+    padding-right: 30px;
   }
   nav ul li {
     font-size: 11pt;

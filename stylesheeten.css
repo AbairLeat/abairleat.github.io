@@ -13,8 +13,8 @@ iframe {
   width: 500px;
 }
 #engbutton {
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
   background-color: #08BDD8;
   color: white;
   font-size: 10px;
@@ -188,7 +188,7 @@ p {
 }
 @media screen and (max-width: 450px) {
   nav {
-    padding-right: 50px;
+    padding-right: 30px;
   }
   nav ul li {
     font-size: 11pt;
