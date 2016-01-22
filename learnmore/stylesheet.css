@@ -19,7 +19,7 @@ header {
 }
 nav {
   float: right;
-  padding-right: 100px;
+  padding-right: 105px;
 }
 nav ul {
   color: #08BDD8;
@@ -37,7 +37,7 @@ nav ul li{
 a {
   text-decoration: none;
   padding-bottom: 0px;
-  font-size: 18px;
+  font-size: 20px;
   margin: 0px;
   color: #08BDD8;
   color: #08BDD8;
@@ -137,6 +137,9 @@ p {
     font-family: 'Roboto', sans-serif;
       text-align: left;
       font-size: 13.5pt;
+}
+#needswrap {
+  line-height: 22pt;
 }
 #getabairleatsec h1 {
   text-align: center;
