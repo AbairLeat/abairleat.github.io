@@ -211,6 +211,7 @@ footer {
   padding-top: 10px;
   text-align: center;
   margin: 0px;
+  font-size: 12pt;
 }
 @media screen and (max-width: 1200px) {
   .section {
