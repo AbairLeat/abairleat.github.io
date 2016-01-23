@@ -67,7 +67,7 @@ a {
   width: 100vw;
   max-width: 1500px;
   max-height: 800px;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
   background-color: pink;
 }
 #secone {
