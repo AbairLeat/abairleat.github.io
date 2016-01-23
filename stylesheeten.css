@@ -80,7 +80,7 @@ a {
 }
 #secthree {
   padding-top: 70px;
-  padding-bottom: 70px;
+  padding-bottom: 90px;
   background-color: #182E4A;
 }
 #secfour {
@@ -148,7 +148,6 @@ padding-top: 0px;
   max-height: 95vh;
 }
 #predicitve {
-  padding-bottom: 20px;
   max-height: 550px;
 }
 #oneleft {
