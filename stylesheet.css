@@ -88,11 +88,11 @@ a {
   background-color: #ffffff;
 }
 #secthree {
-  padding-top: 20px;
+  padding: 40px 0px;
   background-color: #182E4A;
 }
 #secfour {
-  padding-top: 20px;
+  padding: 70px 0px;
   background-color: #CE3E3E;
 }
 #sectwo div h1{
@@ -105,7 +105,7 @@ a {
   color: grey;
 }
 #secfive {
-  padding-top: 10px;
+  padding: 40px 0px;
   background-color: #b8c2cc;
 }
 .secfivetext {
