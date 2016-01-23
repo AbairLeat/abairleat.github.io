@@ -3,7 +3,12 @@
 /** {border: 1px solid black;}*/
 
 body {
-    margin: 0;
+    text-align: center;
+}
+#wrapper {
+  max-width: 1500px;
+  text-align: left;
+  margin: 0 auto;
 }
 img {
     max-width: 100%;
@@ -12,15 +17,11 @@ img {
 iframe {
   width: 500px;
 }
-main {
-  text-align: center;
-}
 #comingsoontop {
   width: 50%;
 }
 #engbutton {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 10px;
   background-color: #08BDD8;
   color: white;
   font-size: 10px;
@@ -46,7 +47,6 @@ nav ul {
 nav ul li {
   display: inline-block;
   text-decoration: none;
-  padding-top: 15px;
   padding-bottom: 0px;
   font-size: 18px;
   margin: 0px;
@@ -120,8 +120,7 @@ a {
   font-size: 12pt;
   background-color: #08BDD8;
   color: white;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding: 10px;
   margin-bottom: 20px;
 }
 iframe {
@@ -203,7 +202,7 @@ footer {
   text-align: center;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 790px) {
 #headerbubble {
   display: none;
 }
@@ -211,6 +210,9 @@ footer {
 @media screen and (max-width: 590px) {
   #mobilelogo {
     display: none;
+  }
+  nav {
+    padding-right: 10px;
   }
 }
 @media screen and (max-width: 650px) {
@@ -224,18 +226,20 @@ footer {
     padding: 0px;
   }
 }
-@media screen and (max-width: 450px) {
-  nav {
-    padding-right: 30px;
-  }
+@media screen and (max-width: 500px) {
   nav ul li {
     font-size: 11pt;
   }
-  h1 {
-    font-size: 38pt;
+}
+@media screen and (max-width: 450px) {
+  nav {
+    padding-right: 10px;
+  }
+  #learnmorebutton {
+    font-size: 9pt;
   }
   #engbutton {
-    margin-left: 4px;
+    margin-left: 10px;
   }
 }
 @media screen and (min-width: 1020px) {

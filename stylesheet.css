@@ -3,7 +3,12 @@
 /** {border: 1px solid black;}*/
 
 body {
-    margin: 0;
+    text-align: center;
+}
+#wrapper {
+  max-width: 1500px;
+  text-align: left;
+  margin: 0 auto;
 }
 img {
     max-width: 100%;
@@ -21,8 +26,7 @@ main {
 }
 
 #engbutton {
-  padding-left: 5px;
-  padding-right: 5px;
+  padding: 10px;
   margin-bottom: 12px;
   background-color: #08BDD8;
   color: white;
@@ -49,7 +53,7 @@ nav ul {
 nav ul li {
   display: inline-block;
   text-decoration: none;
-  padding-top: 15px;
+  /*padding-top: 15px;*/
   padding-bottom: 0px;
   font-size: 19px;
   margin: 0px;
@@ -73,7 +77,6 @@ a {
   width: 100vw;
   max-width: 1500px;
   max-height: 800px;
-  background-color: pink;
 }
 #secone {
   padding-top: 40px;
@@ -84,7 +87,7 @@ a {
   background-color: #ffffff;
 }
 #secthree {
-  padding-top: 80px;
+  padding-top: 20px;
   background-color: #182E4A;
 }
 #secfour {
@@ -101,7 +104,7 @@ a {
   color: grey;
 }
 #secfive {
-  padding-top: 50px;
+  padding-top: 10px;
   background-color: #b8c2cc;
 }
 .secfivetext {
@@ -126,8 +129,7 @@ a {
   font-size: 12pt;
   background-color: #08BDD8;
   color: white;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding: 10px;
   margin-bottom: 20px;
 }
 iframe {
@@ -213,7 +215,7 @@ footer {
     display: none;
   }
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 790px) {
 #headerbubble {
   display: none;
 }
@@ -229,12 +231,14 @@ footer {
     padding: 0px;
   }
 }
-@media screen and (max-width: 450px) {
-  nav {
-    padding-right: 30px;
-  }
+@media screen and (max-width: 500px) {
   nav ul li {
     font-size: 11pt;
+  }
+}
+@media screen and (max-width: 450px) {
+  nav {
+    padding-right: 10px;
   }
   #learnmorebutton {
     font-size: 9pt;

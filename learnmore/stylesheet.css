@@ -3,13 +3,19 @@
 /** {border: 1px solid black;}*/
 
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
+    text-align: center;
+}
+#wrapper {
+  max-width: 1500px;
+  text-align: left;
+  margin: 0 auto;
 }
 img {
     max-width: 100%;
 }
 header {
+  text-align: left;
+  max-width: 1500px;
   background: white;
   opacity: 0.95;
   position: fixed;
@@ -53,8 +59,8 @@ a {
 }
 .section {
   width: 100vw;
-  min-height: 100vh;
-  background-color: pink;
+  max-width: 1500px;
+  max-height: 800px;
   padding: 10px;
 }
 #mainsec {
@@ -197,7 +203,7 @@ footer {
 @media screen and (max-width: 450px) {
   nav {
     margin-top: 10px;
-    padding-right: 30px;
+    padding-right: 20px;
   }
   nav ul li a{
     font-size: 14pt;
