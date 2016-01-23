@@ -65,18 +65,21 @@ a {
 }
 #mainsec {
   background-color: #08BDD8;
+  min-height: 100vh;
 }
 #secone {
   background-color: #182E4A;
 }
 #sectwo {
   background-color: #ffffff;
+  padding-bottom: 40px;
 }
 .sectwotext {
   color: grey;
 }
 #secthree {
-  padding-top: 100px;
+  padding-top: 40px;
+  padding-bottom: 50px;
   background-color: #5E6A7A;
 }
 #michael {

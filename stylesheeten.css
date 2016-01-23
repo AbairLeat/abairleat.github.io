@@ -85,9 +85,13 @@ a {
   background-color: #182E4A;
 }
 #secfour {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 70px;
+  padding-bottom: 120px;
+  /*background-color: white;*/
   background-color: #CE3E3E;
+}
+#achievements {
+  padding-top: 50px;
 }
 #sectwo div h1{
   color: grey;
@@ -99,7 +103,7 @@ a {
   color: grey;
 }
 #secfive {
-  padding-top: 70px;
+  padding-top: 50px;
   padding-bottom: 70px;
   background-color: #b8c2cc;
 }
@@ -111,7 +115,8 @@ a {
 }
 #secsix {
   text-align: center;
-  padding-top: 100px;
+  padding-top: 60px;
+  padding-bottom: 70px;
   background-color: #5E6A7A;
 }
 .secsixtext {
@@ -196,9 +201,6 @@ p {
   color: white;
   margin-bottom: 0px;
 
-}
-#icon {
-  padding-top: 40px;
 }
 footer {
   background-color: white;
