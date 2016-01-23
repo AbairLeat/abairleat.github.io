@@ -12,6 +12,9 @@ img {
 iframe {
   width: 500px;
 }
+main {
+  text-align: center;
+}
 #comingsoontop {
   width: 50%;
 }
