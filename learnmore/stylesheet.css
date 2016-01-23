@@ -175,7 +175,9 @@ footer {
 #copyright {
   text-align: center;
   font-weight: 300;
+  padding-top: 10px;
   font-size: 16pt;
+  margin: 0px;
 }
 @media screen and (max-width: 1200px) {
   .section {

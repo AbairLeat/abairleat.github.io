@@ -208,6 +208,7 @@ footer {
 }
 #copyright {
   padding-top: 10px;
+  margin: 0px;
   text-align: center;
 }
 @media screen and (max-width: 1200px) {
