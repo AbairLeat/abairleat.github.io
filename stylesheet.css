@@ -72,7 +72,7 @@ a {
   display: none;
 }
 .section {
-  padding: 80px;
+  /*padding: 80px;*/
   position: relative;
   width: 100vw;
   max-width: 1500px;
