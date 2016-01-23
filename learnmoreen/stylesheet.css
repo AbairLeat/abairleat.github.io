@@ -1,0 +1,219 @@
+/*CSS Stylesheet*/
+
+/** {border: 1px solid black;}*/
+
+body {
+    text-align: center;
+}
+#wrapper {
+  max-width: 1500px;
+  text-align: left;
+  margin: 0 auto;
+}
+img {
+    max-width: 100%;
+}
+header {
+  text-align: left;
+  max-width: 1500px;
+  background: white;
+  opacity: 0.95;
+  position: fixed;
+  height: 64px;
+  width: 100%;
+  z-index: 1;
+}
+nav {
+  float: right;
+  padding-right: 70px;
+}
+nav ul {
+  color: #08BDD8;
+  margin-top: 0px;
+}
+nav ul li{
+  display: inline-block;
+  text-decoration: none;
+  padding-top: 15px;
+  padding-bottom: 0px;
+  font-size: 18px;
+  margin: 0px;
+  color: #08BDD8;
+}
+a {
+  text-decoration: none;
+  padding-bottom: 0px;
+  font-size: 20px;
+  margin: 0px;
+  color: #08BDD8;
+  color: #08BDD8;
+  text-decoration: none;
+}
+#headerbubble {
+  margin-top: 17px;
+  max-height: 28px;
+  padding-left: 70px;
+}
+#learnmorehead {
+  width: 100%;
+}
+.section {
+  width: 100vw;
+  max-width: 1500px;
+  max-height: 800px;
+  padding: 10px;
+}
+#mainsec {
+  background-color: #08BDD8;
+}
+#secone {
+  background-color: #182E4A;
+}
+#sectwo {
+  background-color: #ffffff;
+}
+.sectwotext {
+  color: grey;
+}
+#secthree {
+  padding-top: 100px;
+  background-color: #5E6A7A;
+}
+#michael {
+  margin-top: 40px;
+  border: 7px solid white;
+  border-radius: 50% 50% 0% 50%;
+  box-shadow: 0 0 1em black;
+}
+
+#michaelcaption {
+  text-align: right;
+  font-size: 13pt;
+}
+#michaeltitle {
+  text-align: right;
+  padding-right: 0px;
+  margin-right: 0px;
+}
+.secfourtext {
+  line-height: 22pt;
+}
+#learnmorebutton {
+  font-size: 12pt;
+  background-color: white;
+  color: navy;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.container {
+  margin-top: 0px;
+  text-align: center;
+  color: white;
+}
+#mainscreen {
+  max-height: 95vh;
+}
+#oneleft {
+  margin-top: 0px;
+}
+#oneright {
+  margin-left: 0px;
+  margin-top: 100px;
+}
+#threeleft {
+  text-align: right;
+}
+#allogo {
+  margin-top: 15%;
+}
+h1 {
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  font-size: 42pt;
+}
+h3 {
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  font-size: 32pt;
+}
+h5 {
+  font-family: 'Roboto', sans-serif;
+    text-align: left;
+    /*font-style: italic;*/
+    font-size: 22pt;
+    line-height: 0pt;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+      text-align: left;
+      font-size: 13.5pt;
+      line-height: 16pt;
+}
+#needswrap {
+  line-height: 22pt;
+}
+#getabairleatsec h1 {
+  text-align: center;
+  color: white;
+}
+#signature {
+  padding-top: 10px;
+}
+#learnmoresec h2 {
+  text-align: center;
+  color: white;
+  margin-bottom: 0px;
+}
+footer {
+  margin-top: 0px;
+  background-color: white;
+  color: grey;
+  text-align: center;
+  height: 45px;
+}
+#copyright {
+  text-align: center;
+  font-weight: 300;
+  font-size: 16pt;
+}
+@media screen and (max-width: 1200px) {
+  .section {
+    max-height: 3000px;
+  }
+}
+@media screen and (max-width: 800px) {
+  #mainsec {
+    max-height: 300px;
+  }
+}
+@media screen and (max-width: 785px) {
+  #headerbubble {
+    display: none;
+  }
+}
+@media screen and (max-width: 650px) {
+  iframe {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 550px) {
+  nav {
+    padding-right: 10px;
+  }
+  h5 {
+    line-height: 22pt;
+  }
+}
+@media screen and (max-width: 450px) {
+  nav {
+    margin-top: 10px;
+    padding-right: 20px;
+  }
+  nav ul li a{
+    font-size: 14pt;
+  }
+  #learnmorehead {
+    padding-top: 40px;
+  }
+}
