@@ -202,4 +202,7 @@ footer {
   nav ul li a{
     font-size: 14pt;
   }
+  #learnmorehead {
+    padding-top: 200px;
+  }
 }
