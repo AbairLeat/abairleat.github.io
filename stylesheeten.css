@@ -201,7 +201,11 @@ footer {
   padding-top: 10px;
   text-align: center;
 }
-
+@media screen and (max-width: 1200px) {
+  .section {
+    max-height: 3000px;
+  }
+}
 @media screen and (max-width: 790px) {
 #headerbubble {
   display: none;

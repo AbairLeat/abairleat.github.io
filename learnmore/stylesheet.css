@@ -177,6 +177,11 @@ footer {
   font-weight: 300;
   font-size: 16pt;
 }
+@media screen and (max-width: 1200px) {
+  .section {
+    max-height: 3000px;
+  }
+}
 @media screen and (max-width: 800px) {
   #mainsec {
     max-height: 300px;
