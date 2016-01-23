@@ -133,7 +133,7 @@ h3 {
 h5 {
   font-family: 'Roboto', sans-serif;
     text-align: left;
-    font-style: italic;
+    /*font-style: italic;*/
     font-size: 22pt;
     line-height: 0pt;
 }
@@ -158,7 +158,18 @@ p {
   color: white;
   margin-bottom: 0px;
 }
-
+footer {
+  margin-top: 0px;
+  background-color: white;
+  color: grey;
+  text-align: center;
+  height: 45px;
+}
+#copyright {
+  text-align: center;
+  font-weight: 300;
+  font-size: 16pt;
+}
 @media screen and (max-width: 800px) {
   #mainsec {
     max-height: 300px;
