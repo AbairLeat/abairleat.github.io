@@ -111,6 +111,9 @@ a {
 .secfivetext {
   color: #616f6f;
 }
+#usertitle {
+  line-height: 35pt;
+}
 #fiveright {
   padding-left: 30px;
 }

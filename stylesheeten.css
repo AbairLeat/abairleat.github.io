@@ -83,7 +83,8 @@ a {
   background-color: #182E4A;
 }
 #secfour {
-  padding-top: 20px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   background-color: #CE3E3E;
 }
 #sectwo div h1{
@@ -117,8 +118,7 @@ a {
   max-width: 50%;
 }
 #otherthings {
-  margin-bottom: 20px;
-    max-height: 650px;
+  max-height: 550px;
 }
 
 #learnmorebutton {
@@ -147,7 +147,7 @@ padding-top: 0px;
 }
 #predicitve {
   margin-bottom: 20px;
-  max-height: 650px;
+  max-height: 550px;
 }
 #oneleft {
   margin-top: 0px;
