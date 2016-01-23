@@ -115,6 +115,9 @@ a {
 #comingsoon {
   max-width: 50%;
 }
+#otherthings {
+    max-height: 650px;
+}
 
 #learnmorebutton {
   font-size: 12pt;
@@ -142,6 +145,7 @@ padding-top: 0px;
 }
 #predicitve {
   margin-bottom: 20px;
+  max-height: 650px;
 }
 #oneleft {
   margin-top: 0px;

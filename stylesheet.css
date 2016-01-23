@@ -151,6 +151,10 @@ padding-top: 0px;
 }
 #predicitve {
   margin-bottom: 20px;
+  max-height: 650px;
+}
+#otherthings {
+    max-height: 650px;
 }
 #oneleft {
   margin-top: 0px;
