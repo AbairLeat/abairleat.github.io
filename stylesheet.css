@@ -196,7 +196,6 @@ p {
   text-align: center;
   color: white;
   margin-bottom: 0px;
-
 }
 #icon {
   padding-top: 40px;
@@ -244,13 +243,14 @@ footer {
 }
 @media screen and (max-width: 450px) {
   nav {
-    padding-right: 10px;
+    padding-right: 5px;
   }
   #learnmorebutton {
     font-size: 9pt;
   }
   #engbutton {
-    margin-left: 10px;
+    margin-left: 5px;
+    padding: 5px;
   }
 }
 
