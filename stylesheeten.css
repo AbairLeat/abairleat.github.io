@@ -79,7 +79,8 @@ a {
   background-color: #ffffff;
 }
 #secthree {
-  padding-top: 80px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   background-color: #182E4A;
 }
 #secfour {
@@ -97,7 +98,8 @@ a {
   color: grey;
 }
 #secfive {
-  padding-top: 100px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   background-color: #b8c2cc;
 }
 .secfivetext {
@@ -146,7 +148,6 @@ padding-top: 0px;
   max-height: 95vh;
 }
 #predicitve {
-  margin-bottom: 20px;
   max-height: 550px;
 }
 #oneleft {
