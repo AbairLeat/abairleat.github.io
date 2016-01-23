@@ -221,9 +221,14 @@ footer {
   }
 }
 @media screen and (max-width: 790px) {
-#headerbubble {
-  display: none;
-}
+  #headerbubble {
+    display: none;
+  }
+  nav {
+    text-align: center;
+    padding-right: 0px;
+    float: none;
+  }
 }
 @media screen and (max-width: 650px) {
   iframe {
@@ -243,7 +248,7 @@ footer {
 }
 @media screen and (max-width: 450px) {
   nav {
-    padding-right: 5px;
+    float: none;
   }
   #learnmorebutton {
     font-size: 9pt;

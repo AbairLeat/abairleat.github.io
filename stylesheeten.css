@@ -208,9 +208,14 @@ footer {
   }
 }
 @media screen and (max-width: 790px) {
-#headerbubble {
-  display: none;
-}
+  #headerbubble {
+    display: none;
+  }
+  nav {
+    text-align: center;
+    padding-right: 0px;
+    float: none;
+  }
 }
 @media screen and (max-width: 590px) {
   #mobilelogo {
@@ -238,13 +243,14 @@ footer {
 }
 @media screen and (max-width: 450px) {
   nav {
-    padding-right: 10px;
+    float: none;
   }
   #learnmorebutton {
     font-size: 9pt;
   }
   #engbutton {
-    margin-left: 10px;
+    margin-left: 5px;
+    padding: 5px;
   }
 }
 @media screen and (min-width: 1020px) {

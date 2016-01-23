@@ -193,6 +193,11 @@ footer {
   #headerbubble {
     display: none;
   }
+  nav {
+    text-align: center;
+    padding-right: 0px;
+    float: none;
+  }
 }
 @media screen and (max-width: 650px) {
   iframe {
@@ -200,17 +205,13 @@ footer {
   }
 }
 @media screen and (max-width: 550px) {
-  nav {
-    padding-right: 10px;
-  }
   h5 {
     line-height: 22pt;
   }
 }
 @media screen and (max-width: 450px) {
   nav {
-    margin-top: 10px;
-    padding-right: 20px;
+    float: none;
   }
   nav ul li a{
     font-size: 14pt;
