@@ -74,6 +74,7 @@ a {
   background-color: #5E6A7A;
 }
 #michael {
+  margin-top: 40px;
   border: 7px solid white;
   border-radius: 50% 50% 0% 50%;
   box-shadow: 0 0 1em black;
