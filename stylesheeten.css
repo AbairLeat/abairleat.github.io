@@ -48,7 +48,7 @@ nav ul li {
   display: inline-block;
   text-decoration: none;
   padding-bottom: 0px;
-  font-size: 18px;
+  font-size: 19px;
   margin: 0px;
   color: #08BDD8;
 }
@@ -265,11 +265,6 @@ footer {
   #engbutton {
     margin-left: 5px;
     padding: 5px;
-  }
-}
-@media screen and (max-width: 500px) {
-  #mobilenavbreak {
-    display: block;
   }
 }
 @media screen and (min-width: 1020px) {
