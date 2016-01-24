@@ -257,6 +257,9 @@ footer {
   }
 }
 @media screen and (max-width: 450px) {
+  .section {
+    width: 100vw;
+  }
   nav {
     float: none;
   }
@@ -264,8 +267,8 @@ footer {
     font-size: 9pt;
   }
   #engbutton {
-    margin-left: 7px;
-    padding: 7px;
+    margin-left: 5px;
+    padding: 5px;
   }
 }
 @media screen and (min-width: 1020px) {
