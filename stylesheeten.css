@@ -65,11 +65,10 @@ a {
 .section {
   /*padding: 80px;*/
   position: relative;
-  width: 100vw;
+  width: 100%;
   max-width: 1500px;
   max-height: 800px;
   padding-bottom: 20px;
-  background-color: pink;
 }
 #secone {
   padding-top: 40px;
@@ -256,11 +255,6 @@ footer {
     font-size: 11pt;
   }
 }
-
-@media screen and (max-width: 320px) {
-  .section {
-      width: 320px;
-    }
 @media screen and (max-width: 450px) {
   nav {
     float: none;
