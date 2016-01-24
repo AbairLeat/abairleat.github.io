@@ -65,7 +65,7 @@ a {
 .section {
   /*padding: 80px;*/
   position: relative;
-  width: 100%;
+  width: 100vw;
   max-width: 1500px;
   max-height: 800px;
   padding-bottom: 20px;
