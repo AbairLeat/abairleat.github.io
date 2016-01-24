@@ -256,10 +256,12 @@ footer {
     font-size: 11pt;
   }
 }
-@media screen and (max-width: 450px) {
+
+@media screen and (max-width: 320px) {
   .section {
-    width: 100vw;
-  }
+      width: 320px;
+    }
+@media screen and (max-width: 450px) {
   nav {
     float: none;
   }
