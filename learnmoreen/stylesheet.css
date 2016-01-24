@@ -219,8 +219,9 @@ footer {
 @media screen and (max-width: 450px) {
   nav {
     float: none;
+    text-align: center;
   }
   nav ul li a{
-    font-size: 14pt;
+    font-size: 10pt;
   }
 }
