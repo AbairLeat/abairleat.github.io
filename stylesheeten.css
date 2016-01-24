@@ -166,9 +166,6 @@ padding-top: 0px;
 #allogo {
   margin-top: 15%;
 }
-#mobilenavbreak {
-  display: none;
-}
 h1 {
   font-family: 'Roboto', sans-serif;
   text-align: left;
@@ -265,6 +262,9 @@ footer {
   #engbutton {
     margin-left: 5px;
     padding: 5px;
+  }
+  #wrapper {
+    min-width: 320px;
   }
 }
 @media screen and (min-width: 1020px) {
