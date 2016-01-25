@@ -154,7 +154,7 @@ padding-top: 0px;
 #mainscreen {
   max-height: 95vh;
 }
-#predicitve {
+#predictive {
   margin-bottom: 20px;
   max-height: 650px;
 }
@@ -242,7 +242,7 @@ footer {
   iframe {
     width: 300px;
   }
-  #predicitve {
+  #predictive {
     padding-bottom: 20px;
   }
   .section {
