@@ -266,8 +266,10 @@ footer {
   #wrapper {
     min-width: 320px;
   }
+}
+@media screen and (max-width: 400px) {
   #achievetitle {
-    font-size: 36pt;
+    font-size: 30pt;
   }
 }
 @media screen and (min-width: 1020px) {
