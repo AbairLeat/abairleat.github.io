@@ -268,7 +268,7 @@ footer {
   }
 }
 @media screen and (max-width: 400px) {
-  #achievetitle {
+  h1 {
     font-size: 30pt;
   }
 }
