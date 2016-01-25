@@ -266,6 +266,9 @@ footer {
   #wrapper {
     min-width: 320px;
   }
+  #achievetitle {
+    font-size: 36pt;
+  }
 }
 @media screen and (min-width: 1020px) {
   .section {
